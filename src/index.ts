@@ -23,7 +23,7 @@ import * as ListMonthsTool from "./tools/ListMonthsTool.js";
 
 const server = new McpServer({
   name: "ynab-mcp-server",
-  version: "0.1.2",
+  version: "0.1.3",
 });
 
 // Initialize YNAB API

@@ -161,7 +161,11 @@ export default MyTool;
    npm publish
    ```
 
-After publishing, users can add it to their claude desktop client (read below) or run it with npx
+After publishing, users can add it to their client (read below) or run it with npx:
+
+```bash
+npx -y @redreceipt/ynab-mcp-server
+```
 
 
 ## Using with Claude Desktop
@@ -204,7 +208,7 @@ Add this configuration to your Claude Desktop config file:
   "mcpServers": {
     "ynab-mcp-server": {
       "command": "npx",
-      "args": ["ynab-mcp-server"]
+      "args": ["-y", "@redreceipt/ynab-mcp-server"]
     }
   }
 }
